@@ -1,0 +1,72 @@
+{
+    "NFTS": [
+        {
+            "id": 11,
+            "title": "Cyber Samurai #575",
+            "thub_url": "https://a.imagem.app/o4Aaum.png",
+            "price": "8.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        },
+        {
+            "id": 12,
+            "title": "Cyber Samurai #784",
+            "thub_url": "https://a.imagem.app/o4AVdV.png",
+            "price": "7.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        },
+        {
+            "id": 13,
+            "title": "Cyber Samurai #475",
+            "thub_url": "https://a.imagem.app/o4APbJ.png",
+            "price": "15.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        },
+        {
+            "id": 14,
+            "title": "Cyber Samurai #784",
+            "thub_url": "https://a.imagem.app/o4AU6G.png",
+            "price": "7.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        },
+        {
+            "id": 15,
+            "title": "Cyber Samurai #784",
+            "thub_url": "https://a.imagem.app/o4Aaum.png",
+            "price": "7.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        },
+        {
+            "id": 16,
+            "title": "Cyber Samurai #475",
+            "thub_url": "https://a.imagem.app/o4AfNX.png",
+            "price": "8.5",
+            "classe": "https://a.imagem.app/o4AMqk.png"
+        }
+    ],
+    "Bonus": [
+        {
+            "id": 112,
+            "title": "Set Up Your Wallet",
+            "description": "Connect your wallet to Nico by clicking the wallet icon in the top right corner after you've set it up.",
+            "thumb": "https://a.imagem.app/o4GJ2X.png"
+        },
+        {
+            "id": 113,
+            "title": "Create Unique Collection",
+            "description": "Set a secondary sales fee and add social links, a description, profile and banner images, and a description.",
+            "thumb": "https://a.imagem.app/o4GlMQ.png"
+        },
+        {
+            "id": 115,
+            "title": "Download NFTs",
+            "description": "Add a title and description to your work (picture, video, audio, or 3D art), then customize your NFTs with properties.",
+            "thumb": "https://a.imagem.app/o4G9G1.png"
+        },
+        {
+            "id": 117,
+            "title": "Put Them Up for Sale",
+            "description": "Auctions, fixed-price listings, and declining-price listings are all options. You decide how you'd like to sell your NFTs.",
+            "thumb": "https://a.imagem.app/o4GrRt.png"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+
+body{
+    background-color: #04011C;
+    width: 100%;
+}
+
+.btn-gradient-global{
+    background-image: linear-gradient(to right bottom, #df1cff, #f100d5, #f700af, #f4008d, #ea0070);
+}
+.box-btn{
+    display: none;
+}
+.card:hover .box-btn{
+    display: flex;
+}
+.slick-slider{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-shadow{
+    text-shadow: 2px 3px #1EE0E1;
+    
+}
