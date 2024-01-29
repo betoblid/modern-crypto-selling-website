@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Button";
 
-
 const Contact = () => {
 
     return (
@@ -12,15 +11,14 @@ const Contact = () => {
                 <h2 className="text-4xl font-block-han text-shadow xsmall:text-2xl">
                     Get in Touch
                 </h2>
-                <p 
-                className="font-questrial text-center w-2/3 mb-10 small:w-3/4 xsmall:w-full xsmall:text-sm">
+                <p
+                    className="font-questrial text-center w-2/3 mb-10 small:w-3/4 xsmall:w-full xsmall:text-sm">
                     Set a secondary sales fee and add social links, a description, profile and banner images, and a description.
                 </p>
 
                 <input
                     type="email"
-                    name=""
-                    id=""
+                    id="inputEmail"
                     placeholder="Enter your email address"
                     className="w-3/4 bg-blue-light p-2 text-xl font-questrial outline-cyan-700 border-none rounded-lg xsmall:w-full xsmall:text-lg" />
 
@@ -42,8 +40,18 @@ const Contact = () => {
                                 className="w-14 h-14 bg-blue-dark rounded-full"></div>
                         </div>
 
-                        <a href="mailto:example@gmail.com" title="email de comunicação" target="_blank">example@gmail.com</a>
-                        <a href="mailto:example@gmail.com" title="email de comunicação" target="_blank">example@gmail.com</a>
+                        <a
+                            href="mailto:example@gmail.com"
+                            title="email de comunicação"
+                            target="_blank">
+                            example@gmail.com
+                        </a>
+                        <a
+                            href="mailto:example@gmail.com"
+                            title="email de comunicação"
+                            target="_blank">
+                            example@gmail.com
+                        </a>
                     </li>
 
                     <li className="flex justify-center items-center flex-col gap-1">
@@ -53,8 +61,16 @@ const Contact = () => {
                                 className="w-14 h-14 bg-blue-dark rounded-full"></div>
                         </div>
 
-                        <a href="https://telegram.org/" target="_blank">We are on Telegram</a>
-                        <a href="https://telegram.org/@NicoCryptoChannel" target="_blank">@NicoCryptoChannel</a>
+                        <a
+                            href="https://telegram.org/"
+                            target="_blank">
+                            We are on Telegram
+                        </a>
+                        <a
+                            href="https://telegram.org/@NicoCryptoChannel"
+                            target="_blank">
+                            @NicoCryptoChannel
+                        </a>
                     </li>
 
                     <li className="flex justify-center items-center flex-col gap-1">
@@ -79,5 +95,4 @@ const Contact = () => {
         </section>
     );
 }
-
 export default Contact;

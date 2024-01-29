@@ -11,7 +11,8 @@ const News = () => {
                 className="ml-3 xsmall:mb-3 small:mb-5 small:text-center xsmall:text-center">
                 <img
                     src="https://a.imagem.app/o47jN9.png"
-                    alt="o47jN9.png"
+                    alt="noticia imagem"
+                    title="imagem de noticia"
                     className="w-10 h-10 small:mx-auto xsmall:mx-auto" />
 
                 <h2

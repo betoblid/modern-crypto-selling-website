@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Button from "../Button";
 import Card from "../Card";
 import bd from "../../database/db.json"
@@ -16,16 +16,16 @@ const ListCard = () => {
                 <nav
                     className="flex space-x-5 text-zinc-400 text-center text-2xl mb-10 small:text-xl xsmall:text-sm">
 
-                    <a href="" className="hover:text-zinc-100 font-questrial">
+                    <a href="#" className="hover:text-zinc-100 font-questrial">
                         All
                     </a>
-                    <a href="" className="hover:text-zinc-100 font-questrial">
+                    <a href="#" className="hover:text-zinc-100 font-questrial">
                         Hape prime
                     </a>
-                    <a href="" className="hover:text-zinc-100 font-questrial">
+                    <a href="#" className="hover:text-zinc-100 font-questrial">
                         Lazy Lions
                     </a>
-                    <a href="" className="hover:text-zinc-100 font-questrial">
+                    <a href="#" className="hover:text-zinc-100 font-questrial">
                         Peaceful ape
                     </a>
                 </nav>
@@ -56,5 +56,4 @@ const ListCard = () => {
         </section>
     );
 }
-
 export default ListCard;

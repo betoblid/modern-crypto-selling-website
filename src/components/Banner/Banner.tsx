@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <section>
             <div className="flex items-center justify-between max-w-[1440px] xl:mx-auto 2xl:mx-auto small:flex-col-reverse xsmall:flex-col-reverse ">
-                <div className="w-2/4 ml-10 md:ml-2 small:w-full xsmall:w-full small:flex small:flex-col small:items-center xsmall:px-2 xsmall:w-full">
+                <div className="w-2/4 md:ml-10 lg:ml-10 xl:ml-10 2xl:ml-10  md:ml-2 small:w-full xsmall:w-full small:flex small:flex-col small:items-center xsmall:w-full">
 
                     <h1
                         className="font-block-han text-zinc-100 text-7xl lg:text-5xl md:text-5xl small:text-4xl xsmall:text-3xl">
@@ -26,7 +26,8 @@ const Banner = () => {
                             className="text-zinc-100 text-2xl font-bold flex items-center md:text-xl xsmall:text-lg">
                             <img
                                 src="https://a.imagem.app/o48bkW.png"
-                                alt="o48bkW.png"
+                                alt="Banner NFT"
+                                title="Banner NFT"
                                 className="w-10 xsmall:w-6" />
                             Nico NFT Marketplace Overview
                         </h2>

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 interface NFTProps {
 
     title: string,
@@ -15,12 +14,14 @@ const CardNFT = ({ description, thumb, title }: NFTProps) => {
             <div className="absolute -right-2 -top-1 bg-blue-dark p-4 rounded-xl">
                 <img
                     src={thumb}
-                    alt={title} className="w-12 h-12" title={`icon ${title}`} />
+                    alt={title} 
+                    className="w-12 h-12" 
+                    title={`icon ${title}`} />
             </div>
 
             <div>
                 <h3
-                    className="font-poppins font-bold text-xl">
+                    className="font-poppins font-bold text-xl" >
                     {title}
                 </h3>
                 <p className="font-questrial text-justify py-4" title="descrição">

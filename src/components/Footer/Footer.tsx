@@ -19,35 +19,35 @@ const Footer = () => {
                     <ul className="flex space-x-5 font-hobibi text-base text-white-pasit xsmall:flex-col small:flex-col xsmall:text-center small:text-center xsmall:mb-2 small:mb-2">
                         <li className="small:py-2 small:block xsmall:py-2">
                             <a
-                                href=""
+                                href="#"
                                 className="text-zinc-100 xsmall:font-bold small:font-bold">
                                 Home
                             </a>
                         </li>
                         <li className="small:py-2 small:block xsmall:py-2">
                             <a
-                                href=""
+                                href="#"
                                 className=" hover:text-zinc-100 xsmall:font-bold small:font-bold">
                                 All NFTs
                             </a>
                         </li>
                         <li className="small:py-2 small:block xsmall:py-2">
                             <a
-                                href=""
+                                href="#"
                                 className="hover:text-zinc-100 xsmall:font-bold small:font-bold">
                                 Team
                             </a>
                         </li>
                         <li className="small:py-2 small:block xsmall:py-2">
                             <a
-                                href=""
+                                href="#"
                                 className=" hover:text-zinc-100 xsmall:font-bold small:font-bold">
                                 Terms & Co.
                             </a>
                         </li>
                         <li className="small:py-2 small:block xsmall:py-2">
                             <a
-                                href=""
+                                href="#"
                                 className=" hover:text-zinc-100 xsmall:font-bold small:font-bold">
                                 Contact
                             </a>

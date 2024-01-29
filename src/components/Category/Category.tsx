@@ -22,6 +22,7 @@ const Category = () => {
                 <img
                     src="https://a.imagem.app/o4bMaS.png"
                     alt="Icon Category"
+                    title="Categoria"
                     className="w-3/4 mx-auto xsmall:w-11/12 small:w-10/12" />
             </figure>
 
@@ -35,5 +36,4 @@ const Category = () => {
         </section>
     );
 }
-
 export default Category;

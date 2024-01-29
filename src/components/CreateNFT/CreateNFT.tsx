@@ -34,5 +34,4 @@ const CreateNFT = () => {
         </section>
     );
 }
-
 export default CreateNFT;

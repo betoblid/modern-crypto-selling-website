@@ -1,35 +1,31 @@
 import React from "react";
 import Button from "../Button";
 
-
 interface CardProps {
-  
-        
-            id: number;
-            title: string;
-            thumb: string;
-            classe: string;
-            price: string;
-        
-   
 
+    id: number;
+    title: string;
+    thumb: string;
+    classe: string;
+    price: string;
 }
+
 const Card = ({ classe, id, price, thumb, title }: CardProps) => {
 
-    
+
     return (
         <div className="card p-6 w-72 bg-white-card rounded-lg xl:w-[320px] xsmall:w-10/12">
             <figure>
                 <img
                     src={thumb}
-                    alt="o4AfNX.png"
+                    alt={`Foto da NFT ${title}`}
                     className="w-72 h-80 xsmall:w-full xsmall:h-auto" />
             </figure>
 
             <div className="my-3">
                 <div className="flex flex-row items-center justify-between">
                     <div>
-                        <h3 className="text-zinc-100 text-lg font-semibold xsmall:text-sm">
+                        <h3 className="text-zinc-100 text-lg font-semibold xsmall:text-sm" title="nome da NFT">
                             {title}
                         </h3>
                     </div>
@@ -37,9 +33,10 @@ const Card = ({ classe, id, price, thumb, title }: CardProps) => {
                         <p className="flex items-center justify-center  xsmall:text-sm">
                             <img
                                 src="https://a.imagem.app/o4bxha.png"
-                                alt=""
+                                alt="Ethereum"
+                                title="Cripto Ethereum"
                                 className="w-6 h-6 xsmall:w-4 xsmall:h-4" />
-                            <p className="text-zinc-100 font-semibold">
+                            <p className="text-zinc-100 font-semibold" title="preço da NFT">
                                 {price}
                             </p>
                         </p>

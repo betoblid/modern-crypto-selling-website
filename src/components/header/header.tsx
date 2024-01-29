@@ -9,8 +9,9 @@ import { IoMenu } from "react-icons/io5";
 const Header = () => {
 
     const [menubar, setMenuBar] = useState<boolean>(false)
+
     return (
-        <header className="flex w-full justify-around items-center flex-row py-5 xsmall:relative max-w-[1440px] mx-auto">
+        <header className="flex w-full justify-around px-3 items-center flex-row py-5 xsmall:relative max-w-[1440px] mx-auto">
 
             <img src="https://a.imagem.app/oVOoji.png" alt="oVOoji.png" title="logo de nossa page" className="w-20 h-30" />
 
@@ -21,32 +22,32 @@ const Header = () => {
                 xsmall:block small:block">
                     <li>
                         <a
-                            href=""
+                            href="#"
                             className="text-zinc-100 xsmall:block small:block text-center py-2">
                             Home
                         </a>
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#"
                             className=" hover:text-zinc-100 xsmall:block small:block text-center py-2">
                             All NFTs</a>
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#"
                             className="hover:text-zinc-100 xsmall:block small:block text-center py-2">
                             Team</a>
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#"
                             className=" hover:text-zinc-100 xsmall:block small:block text-center py-2">
                             Terms & Co.</a>
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#"
                             className=" hover:text-zinc-100 xsmall:block small:block text-center py-2">
                             Contact</a>
                     </li>
